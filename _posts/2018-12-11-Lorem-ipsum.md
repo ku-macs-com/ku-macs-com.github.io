@@ -16,4 +16,4 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 Let $n$ be an integer.
 
 ## Display math
-$$f(x) = \int_{-\infty}^{\infty} \hat{f}(x) \, e^{2 \pi i \xi x} \,d\xi.$$
+\\[f(x) = \int_{-\infty}^{\infty} \hat{f}(x) \, e^{2 \pi i \xi x} \,d\xi.\\]
