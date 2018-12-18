@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Daichi Mukai
+title: This is test
 ---
 
 # Lorem ipsum
