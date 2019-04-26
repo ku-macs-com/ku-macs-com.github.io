@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Akira SARASHINA
-title: systemd.timer で定刻にコマンドを実行する
+title: ksnapshot を使って Raspberry pi でスクリーンショットを撮る
 tags:
 ---
 
