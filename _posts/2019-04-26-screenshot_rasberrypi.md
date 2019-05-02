@@ -7,7 +7,7 @@ tags:
 
 [前回のブログ](https://ku-macs-com.github.io/2019/03/31/systemd_timer.html)を書く際にraspberry piでスクリーンショットを撮りたいと思いksnapshotというパッケージをインストールしました。今回はknapshotのインストールのやり方と簡単な使い方を書きます。
 
-###ksnapshotをインストールする
+### ksnapshotをインストールする
 
 > $ sudo apt-get install ksnapshot
 
