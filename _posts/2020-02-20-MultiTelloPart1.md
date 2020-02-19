@@ -8,15 +8,17 @@ tags:
 
 Tello EDU（[Tello EDU 公式サイト](https://www.ryzerobotics.com/jp/tello-edu)）は、香港のとなりのIT産業の盛んな町、深圳のベンチャー企業 Ryze Technology 社から発売されている小さなちいさなドローンです。同じ会社から発売されている無印の Tello との最大の違いは、なんと複数台で編隊飛行ができること！
 
-今回から3回に分けて、プログラミング言語 Python を使った Tello EDU の編隊飛行までの道のりを紹介していきたいと思います。（3回以上になるかも！？投稿はじめてなのでそんなに期待しないで！）
+今回から3回に分けて、プログラミング言語 Python を使った Tello EDU の編隊飛行までの道のりを紹介していきたいと思います。（3回以上になるかも！？投稿はじめてなのでそんなに期待しないで！）
 
 ### ゴールを確認！
 
 まずは目指すゴールを動画で確認しましょう。これは実際に京大 MACS のメンバーで編隊飛行を試みて、成功した様子を撮ったものです。このシリーズでは、これを目指していきます。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l33BURhMC2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=l33BURhMC2A
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ts2wrf0xiUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=ts2wrf0xiUg
+
+（カッコよく Youtube 動画埋め込みたかったけど、やり方がわからない、、、リンクでごめんなさい）
 
 ### 用意するもの
 
