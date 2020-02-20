@@ -8,15 +8,15 @@ tags:
 
 Tello EDU（[Tello EDU 公式サイト](https://www.ryzerobotics.com/jp/tello-edu)）は、香港のとなりのIT産業の盛んな町、深圳のベンチャー企業 Ryze Technology 社から発売されている小さなちいさなドローンです。同じ会社から発売されている無印の Tello との最大の違いは、なんと複数台で編隊飛行ができること！
 
-今回から3回に分けて、プログラミング言語 Python を使った Tello EDU の編隊飛行までの道のりを紹介していきたいと思います。（3回以上になるかも！？投稿はじめてなのでそんなに期待しないで！）
+今回から3回に分けて、プログラミング言語 Python を使った Tello EDU の編隊飛行までの道のりを紹介していきたいと思います。（もしかしたら3回以上になるかも！？）
 
 ### ゴールを確認！
 
 まずは目指すゴールを動画で確認しましょう。これは実際に京大 MACS のメンバーで編隊飛行を試みて、成功した様子を撮ったものです。このシリーズでは、これを目指していきます。
 
-https://www.youtube.com/watch?v=l33BURhMC2A
+[ドローン（Tello EDU）の編隊飛行に挑戦 その1](https://www.youtube.com/watch?v=l33BURhMC2A)
 
-https://www.youtube.com/watch?v=ts2wrf0xiUg
+[ドローン（Tello EDU）の編隊飛行に挑戦 その2](https://www.youtube.com/watch?v=ts2wrf0xiUg)
 
 （カッコよく Youtube 動画埋め込みたかったけど、やり方がわからない、、、リンクでごめんなさい）
 
@@ -43,6 +43,10 @@ https://www.youtube.com/watch?v=ts2wrf0xiUg
 
 最終的に構築されるシステムは、図のようになります。
 
-<img src="/images/kaneko/tello_multi_system.png" width="400">
+<img src="/images/kaneko/tello_multi_system.png" width="500">
 
 初期設定ではドローンとパソコンが直接接続されるために1台のみしか制御できませんが、ドローンと無線ルータ、無線ルータとパソコン、というように無線ルータを間に挟んで接続することで、複数台（今回は4台）の編隊飛行が可能になります。
+
+### 次回
+
+Tello EDU 編隊飛行のための Python 環境の構築について詳しく紹介していく予定です！
