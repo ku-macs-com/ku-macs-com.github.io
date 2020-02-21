@@ -18,6 +18,7 @@ Tello EDU（[Tello EDU 公式サイト](https://www.ryzerobotics.com/jp/tello-ed
 
 {% include youtube.html id="ts2wrf0xiUg" %}
 
+
 ### 用意するもの
 
 次の3つが必要になります。
