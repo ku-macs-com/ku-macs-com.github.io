@@ -14,11 +14,9 @@ Tello EDU（[Tello EDU 公式サイト](https://www.ryzerobotics.com/jp/tello-ed
 
 まずは目指すゴールを動画で確認しましょう。これは実際に京大 MACS のメンバーで編隊飛行を試みて、成功した様子を撮ったものです。このシリーズでは、これを目指していきます。
 
-[ドローン（Tello EDU）の編隊飛行に挑戦 その1](https://www.youtube.com/watch?v=l33BURhMC2A)
+{% include youtube.html id=l33BURhMC2A %}
 
-[ドローン（Tello EDU）の編隊飛行に挑戦 その2](https://www.youtube.com/watch?v=ts2wrf0xiUg)
-
-（カッコよく Youtube 動画埋め込みたかったけど、やり方がわからない、、、リンクでごめんなさい）
+{% include youtube.html id=ts2wrf0xiUg %}
 
 ### 用意するもの
 
