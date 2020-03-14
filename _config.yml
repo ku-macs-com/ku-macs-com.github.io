@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
+title: Kyoto Univ MACS SG10
 plugins:
   - jekyll-sitemap
 
