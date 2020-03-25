@@ -8,11 +8,13 @@ tags:
 
 Tello EDU（[Tello EDU 公式サイト](https://www.ryzerobotics.com/jp/tello-edu)）は、香港のとなりのIT産業の盛んな町、深圳のベンチャー企業 Ryze Technology 社から発売されている小さなちいさなドローンです。同じ会社から発売されている無印の Tello との最大の違いは、なんと複数台で編隊飛行ができること！
 
-今回から3回に分けて、プログラミング言語 Python を使った Tello EDU の編隊飛行までの道のりを紹介していきたいと思います。（もしかしたら3回以上になるかも！？）
+今回から4回に分けて、プログラミング言語 Python を使った Tello EDU の編隊飛行までの道のりを紹介していきたいと思います。
+
+[第2回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart2.html) - [第3回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart3.html) - [第4回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart4.html)
 
 ### ゴールを確認！
 
-まずは目指すゴールを動画で確認しましょう。これは実際に京大 MACS のメンバーで編隊飛行を試みて、成功した様子を撮ったものです。このシリーズでは、これを目指していきます。
+まずは目指すゴールを動画で確認しましょう！ これは実際に京大 MACS のメンバーで編隊飛行を試みて、成功した様子を撮ったものです。このシリーズでは、これを目指していきます。
 
 {% include youtube.html id="l33BURhMC2A" %}
 
@@ -38,7 +40,7 @@ Tello EDU（[Tello EDU 公式サイト](https://www.ryzerobotics.com/jp/tello-ed
 3. Tello EDU の設定を変更し無線ルータに接続
 4. 無線ルータ経由で Tello SDK コマンドを Tello EDU に送信し編隊飛行を実行
 
-1と2を第2回、3と4を第3回で詳しく紹介していきたいと思います。3と4において Tello EDU に Tello SDK コマンドを送信する際には、ソケット通信を使います。今回は Python の機能（[公式ドキュメント](https://docs.python.org/ja/3/library/socket.html)）を使ってソケット通信を行っていますが、node.js など別の言語を使ってもソケット通信は可能です。今回はわかりやすくするために、言語は Python に絞って説明していきます。
+1と2を[第2回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart2.html)、3と4を[第3回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart3.html)で詳しく紹介していきたいと思います。3と4において Tello EDU に Tello SDK コマンドを送信する際には、ソケット通信を使います。今回は Python の機能（[公式ドキュメント](https://docs.python.org/ja/3/library/socket.html)）を使ってソケット通信を行っていますが、node.js など別の言語を使ってもソケット通信は可能です。今回はわかりやすくするために、言語は Python に絞って説明していきます。
 
 最終的に構築されるシステムは、図のようになります。
 
@@ -48,4 +50,4 @@ Tello EDU（[Tello EDU 公式サイト](https://www.ryzerobotics.com/jp/tello-ed
 
 ### 次回
 
-Tello EDU 編隊飛行のための Python 環境の構築について詳しく紹介していく予定です！
+[次回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart2.html)は、Tello EDU 編隊飛行のための Python 環境の構築について詳しく紹介していく予定です！

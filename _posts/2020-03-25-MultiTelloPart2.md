@@ -10,6 +10,8 @@ Tello EDU（[Tello EDU 公式サイト](https://www.ryzerobotics.com/jp/tello-ed
 
 第2回では、Python を使った Tello EDU の制御に向けて、Python 環境を構築し、編隊飛行用のレポジトリを導入していきます。
 
+[第1回](https://ku-macs-com.github.io/2020/02/20/MultiTelloPart1.html) - [第3回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart3.html) - [第4回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart4.html)
+
 ### Python 環境構築とは？
 
 今回ドローンの制御には、プログラミング言語 Python を使っています。この Python、Mac や Linux では初めから入っている状態ですし、Windows でも Python の公式サイトから最新版をダウンロードできます。
@@ -62,4 +64,4 @@ Anaconda のインストールが終わったら、Tello EDU の制御のため�
 
 ### 次回
 
-次回は今回準備した環境を使って実際に Tello EDU を編隊飛行させてみましょう！
+[次回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart3.html)は、今回準備した環境を使って実際に Tello EDU を編隊飛行させてみましょう！

@@ -10,9 +10,11 @@ Tello EDU（[Tello EDU 公式サイト](https://www.ryzerobotics.com/jp/tello-ed
 
 前回までで、実際に Tello EDU 4台を一度に離陸させ、着陸させることに成功しました。第4回では、いろいろな動きを取り入れた格好良い編隊飛行に挑戦します！
 
+[第1回](https://ku-macs-com.github.io/2020/02/20/MultiTelloPart1.html) - [第2回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart2.html) - [第3回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart3.html)
+
 ### 前回の飛行プログラムの解説
 
-前回作ったのは、4台の Tello EDU が離陸して、15秒後に着陸するという、ただそれだけの飛行プログラムでした。まず初めに、これを `multi_tello_test.py` により実行した際になにが起こっているのか、解説します。飛行プログラムは、こんな内容でした。
+[前回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart3.html)作ったのは、4台の Tello EDU が離陸して、15秒後に着陸するという、ただそれだけの飛行プログラムでした。まず初めに、これを `multi_tello_test.py` により実行した際になにが起こっているのか、解説します。飛行プログラムは、こんな内容でした。
 
 `test_flight.txt`
 ```
@@ -36,7 +38,7 @@ sync 15
 
 ### Tello SDK コマンドについて
 
-結局、前回の飛行プログラム `test_flight.txt` は、全ての Tello EDU に向けて `takeoff` と `land` という Tello SDK コマンドを送っていたので離陸し、着陸したわけです。この Tello SDK コマンド、実は多数用意されていて、色々な動作を Tello EDU に命令することができます。たとえば 100 cm 上昇させたいなら
+結局、[前回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart3.html)の飛行プログラム `test_flight.txt` は、全ての Tello EDU に向けて `takeoff` と `land` という Tello SDK コマンドを送っていたので離陸し、着陸したわけです。この Tello SDK コマンド、実は多数用意されていて、色々な動作を Tello EDU に命令することができます。たとえば 100 cm 上昇させたいなら
 
 `up 100`
 

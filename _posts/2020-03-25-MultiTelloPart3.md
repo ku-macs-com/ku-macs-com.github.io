@@ -10,6 +10,8 @@ Tello EDU（[Tello EDU 公式サイト](https://www.ryzerobotics.com/jp/tello-ed
 
 第3回では、前回準備した環境を使って実際に Tello EDU を編隊飛行させてみます！
 
+[第1回](https://ku-macs-com.github.io/2020/02/20/MultiTelloPart1.html) - [第2回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart2.html) - [第4回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart4.html)
+
 ### Tello EDU と無線ルータの接続
 
 まずは Tello EDU と無線ルータを接続します。初期状態では Tello EDU はパソコンや携帯電話と一対一で接続し、通信を行うことができます。ところがこれでは複数台の制御は不可能なため、Tello EDU を無線ルータに接続した上で、無線ルータを介した制御を行うわけです。
@@ -18,7 +20,7 @@ Tello EDU（[Tello EDU 公式サイト](https://www.ryzerobotics.com/jp/tello-ed
 
 <img src="/images/kaneko/tello_multi_system.png" width="300">
 
-前回導入した Multi-Tello-Formation の中には `formation_setup.py` という Python プログラムがあると思います。これをエディタで開き、26行目（一番下）の関数
+[前回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart2.html)導入した Multi-Tello-Formation の中には `formation_setup.py` という Python プログラムがあると思います。これをエディタで開き、26行目（一番下）の関数
 
 `set_ap('Tello_Nest', 'tellotello')`
 
@@ -30,7 +32,7 @@ Tello EDU（[Tello EDU 公式サイト](https://www.ryzerobotics.com/jp/tello-ed
 
 次に、Tello EDU とパソコンを接続します。パソコンの Wi-Fi 設定画面を開くと、`TELLO-58XXXX` というような名前 (SSID) が見つかると思います。それを選んで接続すると、Tello EDU とパソコンが接続されます。この SSID は、TELLO EDU の機体から電池を抜くと、内側に書いてありますので、確認しておきましょう。
 
-最後に、formation_setup.py を実行して Tello EDU と無線ルータに接続します。この際まず、前回作成した仮想環境に入っておきます。その上で
+最後に、formation_setup.py を実行して Tello EDU と無線ルータに接続します。この際まず、[前回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart2.html)作成した仮想環境に入っておきます。その上で
 
 `$ python formation_setup.py`
 
@@ -60,12 +62,12 @@ sync 15
 
 ### Take off!!!!!
 
-長かった準備も終わり、ついに take off の瞬間がやってきました！まず、Wi-Fi 設定画面を開き、パソコンと無線ルータを接続します。次に、前回作成した仮想環境に入っておきます。そして
+長かった準備も終わり、ついに take off の瞬間がやってきました！まず、Wi-Fi 設定画面を開き、パソコンと無線ルータを接続します。次に、[前回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart2.html)作成した仮想環境に入っておきます。そして
 
 `$ python multi_tello_test.py test_flight.txt`
 
-と打つと、4台の Tello EDU が同時に離陸するはずです！！！そしてすぐ着陸するはずです。。。これではつまらない。。。次回はもっといろいろな動きをさせてみましょう！
+と打つと、4台の Tello EDU が同時に離陸するはずです！！！そしてすぐ着陸するはずです。。。これではつまらない。。。今度はもっといろいろな動きをさせてみましょう！
 
 ### 次回
 
-次回は4台の Tello EDU に色々な動きをさせて、格好良い編隊飛行に挑戦しましょう！
+[次回](https://ku-macs-com.github.io/2020/03/25/MultiTelloPart4.html)は、4台の Tello EDU に色々な動きをさせて、格好良い編隊飛行に挑戦しましょう！
