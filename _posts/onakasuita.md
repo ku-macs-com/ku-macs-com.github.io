@@ -4,4 +4,5 @@ author: Imai
 title: Onakasuita
 tags:
 ---
-何食べようかな
+何食べよう
+たこやき
